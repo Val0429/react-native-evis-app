@@ -1,0 +1,37 @@
+{
+  "name": "EVIS",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build-ios": "react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ./ios/bundle/index.ios.jsbundle --assets-dest ./ios/bundle"
+
+  },
+  "dependencies": {
+    "class-autobind": "^0.1.4",
+    "es6-error": "^4.1.1",
+    "lodash": "^4.17.5",
+    "moment": "^2.22.2",
+    "native-base": "^2.3.9",
+    "parse": "^1.10.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-device-info": "^0.21.5",
+    "react-native-push-notification": "^3.0.2",
+    "react-native-storage": "^0.2.2",
+    "react-native-video": "^2.0.0",
+    "react-native-video-player": "^0.8.1",
+    "react-navigation": "^1.0.3",
+    "rxjs": "^5.5.5"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.1.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
